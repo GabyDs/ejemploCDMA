@@ -44,6 +44,20 @@ PN_long = mat.repmat(PN, n_data, 1)
 
 #print(f"Secuencia de valores PN: \n{PN_long}")
 
-PN_plot = np.repeat(PN_long,100,1)
-data_plot = np.repeat(n_data,100,1) 
-signal_plot = np.repeat(signal,100,1)
+PN_mat_plot = mat.repmat(PN_long,100,1)
+data_plot = mat.repmat(data,100,1) 
+signal_plot = mat.repmat(signal,100,1)
+
+L = len(PN_mat_plot)
+
+#print(f"Tamaño de PN_mat_plot: {L}")
+
+x = np.arange(0,9,0.001)
+y = PN_mat_plot[:,0]
+plt.plot(x,y)
+
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Data')
+
+plt.show()
