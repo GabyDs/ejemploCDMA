@@ -1,0 +1,23 @@
+Security. SS prevents unauthorized listening. Unless a receiver has a very wide
+bandwidth and the exact pseudorandom code and type of modulation, it cannot intercept an SS signal.
+
+Resistance to jamming and interference. Jamming signals are typically restricted
+to a single frequency, and jamming one frequency does not interfere with an SS
+signal. Similarly, unintentional interference from a signal occupying the same band
+is greatly minimized and in most cases virtually eliminated.
+
+Band sharing. Many users can share a single band with little or no interference.
+(As more and more signals use a band, the background noise produced by the switching 
+of many signals increases, but not enough to prevent highly reliable communication.)
+
+Resistance to fading and multipath propagation. Frequency-selective fading
+occurs during signal propagation because signals of different frequencies arrive at a
+receiver at slightly different times due to rel ections from other objects. SS virtually
+eliminates wide variations of signal strength due to rel ections and other phenomena
+during propagation.
+
+Resistance to fading and multipath propagation. Frequency-selective fading
+occurs during signal propagation because signals of different frequencies arrive at a
+receiver at slightly different times due to rel ections from other objects. SS virtually
+eliminates wide variations of signal strength due to rel ections and other phenomena
+during propagation.
