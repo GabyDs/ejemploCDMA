@@ -52,12 +52,9 @@ L = len(PN_mat_plot)
 
 #print(f"Tamaño de PN_mat_plot: {L}")
 
-x = np.arange(0,9,0.001)
-y = PN_mat_plot[:,0]
-plt.plot(x,y)
+xs = np.repeat(len(data_plot),2)
+ys = np.repeat(data_plot,2)
 
-plt.xlabel('x')
-plt.ylabel('y')
-plt.title('Data')
-
+plt.plot(xs, data_plot[:,0])
+plt.ylim(-0.5, 1.5)
 plt.show()
